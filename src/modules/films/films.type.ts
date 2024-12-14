@@ -14,3 +14,10 @@ export class Film {
   @Field()
   openingCrawl: string;
 }
+
+export interface SwapiFilm {
+  title: string;
+  director: string;
+  episode_id: number;
+  opening_crawl: string;
+}
